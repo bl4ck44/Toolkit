@@ -47,7 +47,7 @@ if [ -d "$ruta_carpeta" ]; then
 else
   # Si la carpeta no existe, se crea
   mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada"
+  echo "La carpeta ha sido creada" > /dev/null
 fi
 
 # Ruta de la carpeta a comprobar
@@ -58,7 +58,7 @@ if [ -d "$ruta_carpeta" ]; then
 else
   # Si la carpeta no existe, se crea
   mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada"
+  echo "La carpeta ha sido creada" > /dev/null
 fi
 
 # Ruta de la carpeta a comprobar
@@ -69,7 +69,7 @@ if [ -d "$ruta_carpeta" ]; then
 else
   # Si la carpeta no existe, se crea
   mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada"
+  echo "La carpeta ha sido creada" > /dev/null
 fi
 
 # Ruta de la carpeta a comprobar
@@ -80,7 +80,7 @@ if [ -d "$ruta_carpeta" ]; then
 else
   # Si la carpeta no existe, se crea
   mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada"
+  echo "La carpeta ha sido creada" > /dev/null
 fi
 
 # Ruta de la carpeta a comprobar
@@ -91,7 +91,7 @@ if [ -d "$ruta_carpeta" ]; then
 else
   # Si la carpeta no existe, se crea
   mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada" 
+  echo "La carpeta ha sido creada" > /dev/null
 fi
 
 echo
