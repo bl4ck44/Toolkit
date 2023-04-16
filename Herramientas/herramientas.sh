@@ -526,7 +526,7 @@ esac
 
 
 
-Hacking-Sistemas(){
+OSINT(){
 
         clear
         
@@ -603,62 +603,62 @@ Hacking-Sistemas(){
         case $opcion in
 
              1) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/thewhiteh4t/nexfil.git
              cd nexfil
              pip3 install -r requirements.txt;;
 
              2) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/sherlock-project/sherlock.git
              cd sherlock
              python3 -m pip install -r requirements.txt;;
 
              3) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/thewhiteh4t/seeker.git
              cd seeker/
              chmod +x install.sh
              ./install.sh;;
 
              4) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/R3LI4NT/UnknSMS
              cd UnknSMS;;
 
              5) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/p1ngul1n0/blackbird
              cd blackbird
              pip install -r requirements.txt;;
 
              6) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/wishihab/userrecon.git;;
 
              7) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/Monkey-hk4/OVNI;;
 
              8) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/jric2002/GeoTrackerIP
              cd GeoTrackerIP
              chmod +x GeoTrackerIP.py
              chmod +x install.py;;
 
              9) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/s0md3v/Photon.git
              cd Photon
              docker build -t photon .;;
 
              10) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/medbenali/CyberScan.git;;
 
              11) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone --recursive https://github.com/screetsec/Sudomy.git
              pip install -r requirements.txt
              apt-get update
@@ -666,21 +666,23 @@ Hacking-Sistemas(){
              npm i -g wappalyzer;;
 
              12) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/capture0x/XCTR-Hacking-Tools/
              cd xctr-hacking-tools
              pip3 install -r requirements.txt;;
 
              13) echo
-             cd Herramientas/Hacking-Sistemas
+             cd Herramientas/OSINT
              git clone https://github.com/UndeadSec/checkURL.git;;
 
              14) echo
+             cd Herramientas/OSINT
              git clone https://github.com/BlackFoxTM/trace_num
              cd trace_num
              pip3 install -r requirements.txt;;
 
              15) echo
+             cd Herramientas/OSINT
              apt install python && apt install python3-pip -y
              pip3 install colored --upgrade
              git clone https://github.com/C4ssif3r/admin-panel-finder;;
