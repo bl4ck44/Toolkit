@@ -38,62 +38,6 @@ if [ "$(id -u)" != "0" ]; then
    exit 1
 fi
 
-
-# Ruta de la carpeta a comprobar
-ruta_carpeta="Herramientas/Hacking-Sistemas"
-# Comprobar si la carpeta existe
-if [ -d "$ruta_carpeta" ]; then
-  echo "La carpeta ya existe" > /dev/null
-else
-  # Si la carpeta no existe, se crea
-  mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada" > /dev/null
-fi
-
-# Ruta de la carpeta a comprobar
-ruta_carpeta="Herramientas/Hacking-Web"
-# Comprobar si la carpeta existe
-if [ -d "$ruta_carpeta" ]; then
-  echo "La carpeta ya existe" > /dev/null
-else
-  # Si la carpeta no existe, se crea
-  mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada" > /dev/null
-fi
-
-# Ruta de la carpeta a comprobar
-ruta_carpeta="Herramientas/Hacking-Wifi"
-# Comprobar si la carpeta existe
-if [ -d "$ruta_carpeta" ]; then
-  echo "La carpeta ya existe" > /dev/null
-else
-  # Si la carpeta no existe, se crea
-  mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada" > /dev/null
-fi
-
-# Ruta de la carpeta a comprobar
-ruta_carpeta="Herramientas/Ingenieria-Social"
-# Comprobar si la carpeta existe
-if [ -d "$ruta_carpeta" ]; then
-  echo "La carpeta ya existe" > /dev/null
-else
-  # Si la carpeta no existe, se crea
-  mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada" > /dev/null
-fi
-
-# Ruta de la carpeta a comprobar
-ruta_carpeta="Herramientas/OSINT"
-# Comprobar si la carpeta existe
-if [ -d "$ruta_carpeta" ]; then
-  echo "La carpeta ya existe" > /dev/null
-else
-  # Si la carpeta no existe, se crea
-  mkdir "$ruta_carpeta"
-  echo "La carpeta ha sido creada" > /dev/null
-fi
-
 echo
 
    echo
