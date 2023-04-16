@@ -8,6 +8,20 @@ Un menú de herramientas de hacking es una recopilación de programas informáti
 
 Toolkit es un menu que cuenta con todo tipo de herramientas de hacking como OSINT, Ingenieria Social, Explotacion Web, Hacking Sistemas y Hacking Wifi.
 
+<br>
+
+```
+git clone https://github.com/bl4ck44/Toolkit.git
+
+cd Toolkit
+
+chmod +x toolkit.sh
+
+sudo bash toolkit.sh
+```
+
+<br>
+
 ![menú](Img/men%C3%BA1.png)
 
 <br>
