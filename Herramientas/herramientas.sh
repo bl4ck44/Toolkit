@@ -466,6 +466,10 @@ Ingenieria-Social(){
 
         echo
 
+        echo -e "   \033[1m [8] Email-Bomber: Herramienta para spamear correos electrónicos \033[0m"
+
+        echo
+
         echo -e "   \033[1m [99] Menú \033[0m"
 
         echo
@@ -515,6 +519,14 @@ Ingenieria-Social(){
         git clone https://github.com/rubikproxy/rubikphish.git
         cd rubikphish
         chomd +x rubikphish.sh;;
+
+        8) echo
+        cd Herramientas/Ingenieria-Social
+        git clone https://github.com/RIP-Network/Email-Bomber
+        cd Email-Bomber
+        chmod +x * install.sh
+        ./install.sh
+        python2 Bomb.py;;
 
         99) echo
         clear
