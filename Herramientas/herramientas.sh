@@ -487,8 +487,8 @@ Ingenieria-Social(){
         bash install.sh;;
 
         2) echo
-        cd Herramientas/Ingeniera-Social
-        git clone git://github.com/htr-tech/nexphisher.git
+        cd Herramientas/Ingenieria-Social
+        git clone https://github.com/htr-tech/nexphisher.git
         cd nexphisher
         bash setup.sh;;
 
